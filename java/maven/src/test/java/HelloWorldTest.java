@@ -13,7 +13,7 @@ public class HelloWorldTest {
 
     @Test
     public void should_be_mocked(){
-        HelloWorld helloWorld = mock(HelloWorld.class);
+      HelloWorld helloWorld = mock(HelloWorld.class);
         when(helloWorld.beenCalled()).thenReturn("Hello World");
 
         assertThat(helloWorld.beenCalled()).isEqualTo("Hello World");
