@@ -4,7 +4,7 @@ package CompareNumber;
  * Created by hu on 15-2-2.
  */
 public class CompareNumber {
-    /*public String show(int number1 ,int number2) {
+ /*public String show(int number1 ,int number2) {
         int[] number3=new int[4];
       int[] number4=new int[4];
         int result1=0;
@@ -34,7 +34,7 @@ public class CompareNumber {
         String result3=result2+"A"+result1+"B";
         return result3;
     }*/
-   /*public String show(String input ,String answer){
+   public String show(String input ,String answer){
         int a_count=0,b_count=0;
        for (int i = 0; i < input.length(); i++) {
            if (input.contains(String.valueOf(answer.charAt(i)))){
@@ -44,11 +44,7 @@ public class CompareNumber {
                a_count++;
            }
        }
-
-
         return a_count+"A"+(b_count-a_count)+"B";
-    }*/
-    public String show(int number1,int number2){
-        return null;
     }
+
 }
